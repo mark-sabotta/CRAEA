@@ -16,5 +16,5 @@ Districts.forEach(districtName => {
     const option = document.createElement("option");
     option.value = districtName;
     option.textContent = districtName;
-    selectElement.appendChild(option);
+    selectDistrict.appendChild(option);
 });
