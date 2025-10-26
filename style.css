@@ -1,3 +1,7 @@
+body {
+  text-align: center;
+}
+
 .hero {
   display: flex;
   color: #666;
