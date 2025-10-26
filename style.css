@@ -26,3 +26,8 @@ p.attribution {
   font-size: 1.75rem;
   font-family: PT Serif, serif;
 }
+
+.contact-form {
+  background-color: #f2f2f2;
+  color: #212529;
+}
