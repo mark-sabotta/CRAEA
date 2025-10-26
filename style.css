@@ -3,6 +3,7 @@ body {
 }
 
 .hero {
+  max-width: 600px;
   display: flex;
   color: #666;
   font-weight: 400;
