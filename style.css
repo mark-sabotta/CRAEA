@@ -2,10 +2,14 @@ body {
   text-align: center;
 }
 
+p.attribution {
+    font-size: 50%;
+}
+
 .hero {
   max-width: 600px;
   display: flex;
-  color: #666;
+  color: #0D2C58;
   font-weight: 400;
   font-size: 0.875rem;
   font-family: Cabin, sans-serif;
