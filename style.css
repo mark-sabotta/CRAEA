@@ -2,6 +2,11 @@ body {
   text-align: center;
 }
 
+div {
+  left-margin: auto;
+  right-margin: auto;
+}
+
 p.attribution {
     font-size: 50%;
 }
