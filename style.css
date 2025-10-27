@@ -36,4 +36,10 @@ p.attribution {
   padding-left: 15px;
 }
 
-
+button.contact-form {
+  background-color: white;
+  color: #0D2C58;
+  font-family: Cabin, sans-serif;
+  font-size: 0.875rem;
+  border-radius: 50px;
+}
