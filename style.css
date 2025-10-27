@@ -36,6 +36,10 @@ p.attribution {
   padding-left: 15px;
 }
 
+select.contact-form, input.contact-form {
+  padding-top: 15px;
+}
+
 button.contact-form {
   background-color: white;
   color: #0D2C58;
@@ -48,7 +52,10 @@ button.contact-form {
   padding: 0px 30px;
 }
 
-button.contact-form:focus {
+
+
+
+button.contact-form:focus, button.contact-form:hover {
   background-color: #0D2C58;
   color: white;
 }
