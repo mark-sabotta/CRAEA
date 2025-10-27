@@ -42,4 +42,14 @@ button.contact-form {
   font-family: Cabin, sans-serif;
   font-size: 0.875rem;
   border-radius: 50px;
+  height: 45px;
+  display: inline-block;
+  width: auto;
+  padding: 0px 30px;
 }
+
+button.contact-form:focus {
+  background-color: #0D2C58;
+  color: white;
+}
+
