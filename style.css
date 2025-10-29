@@ -4,33 +4,47 @@ body {
   padding: 0;
 }
 
-.attribution {
-    font-size: .65 rem;
-}
-
 .hero {
-  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 15px; 
+  max-width: 900px; 
+  
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  margin: 20px auto;
+  gap: 30px; 
+
   color: #0D2C58;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1rem; 
   font-family: Cabin, sans-serif;
-  text-align: left;
+  text-align: left; 
 }
 
+/* Styles for the two sections inside the hero */
+.hero section {
+    padding: 0;
+}
+
+/* Media Query for Larger Screens (Desktop View) */
 @media (min-width: 768px) {
   .hero {
     flex-direction: row;
-    align-items: flex-start;
+    align-items: flex-start; 
   }
 }
 
-.hero section {
-  flex-grow: 1;
-  padding: 15px;
+/* Image and Attribution Styles */
+.hero img {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+    border-radius: 8px;
+}
+
+figcaption.attribution {
+  font-size: 0.7rem;
+  color: #6c757d;
+  margin-top: 5px;
 }
 
 
