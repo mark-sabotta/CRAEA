@@ -20,12 +20,10 @@ body {
   text-align: left; 
 }
 
-/* Styles for the two sections inside the hero */
 .hero section {
     padding: 0;
 }
 
-/* Media Query for Larger Screens (Desktop View) */
 @media (min-width: 768px) {
   .hero {
     flex-direction: row;
@@ -33,7 +31,6 @@ body {
   }
 }
 
-/* Image and Attribution Styles */
 .hero img {
     max-width: 100%;
     height: auto;
