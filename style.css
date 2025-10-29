@@ -21,6 +21,10 @@ p.attribution {
   font-family: Cabin, sans-serif;
 }
 
+div.hero {
+  display: flex;
+}
+
 .main-header {
   color: #0D2C58;
   font-weight: 700;
