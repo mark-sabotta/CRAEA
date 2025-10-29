@@ -42,12 +42,11 @@
         <h3>Interested in trying our free demo?</h3>
         <form id="contact-form">
           <label for="email">Email Address:</label>
-          <input id="email" type="email">
-          <br/>
+          <input id="email" name="email" type="email" required>
           <label for="school-district">School District:</label>
           <select id="school-district" name="selection">
+            <option value="" disabled selected>Select a District</option>
           </select>
-          <br/>
           <button type="submit" class="contact-form">Contact Me</button>
         </form>
       </div>
