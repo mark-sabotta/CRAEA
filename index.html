@@ -8,21 +8,26 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1 class="main-header">Launching Literacy</h1>
+    <header>
+      <h1 class="main-header">Launching Literacy</h1>
+    </header>
     
-    <div class="hero">
-      <div>
-        <img src="kids_teacher.jpg" alt="Teacher and students shown enjoying Launching Literacy"/>
-        <p class="attribution">
-        "<a rel="noopener noreferrer" href="https://www.flickr.com/photos/48445211@N06/9608816688">SAD_Hortons_Kids 113</a>"
-        by <a rel="noopener noreferrer" href="https://www.flickr.com/photos/48445211@N06">US Department of Education</a>
-        is licensed under <a rel="noopener noreferrer" href="https://creativecommons.org/licenses/by/2.0/?ref=openverse">
-          CC BY 2.0 
-          <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1em; margin-right: 0.125em; display: inline;" />
-          <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1em; margin-right: 0.125em; display: inline;" /></a>.
-        </p>
-      <div/>
-      <div>
+    <main class="hero">
+      <section class="image-section">
+        <figure><img src="kids_teacher.jpg" alt="Teacher and students shown enjoying Launching Literacy"/>
+        <figcaption class="attribution">
+          "
+          <a rel="noopener noreferrer" href="https://www.flickr.com/photos/48445211@N06/9608816688">SAD_Hortons_Kids 113</a>"
+          by <a rel="noopener noreferrer" href="https://www.flickr.com/photos/48445211@N06">US Department of Education</a>
+          is licensed under 
+          <a rel="noopener noreferrer" href="https://creativecommons.org/licenses/by/2.0/?ref=openverse">
+              CC BY 2.0
+              <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1em; margin-right: 0.125em; display: inline;" aria-hidden="true" />
+              <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1em; margin-right: 0.125em; display: inline;" aria-hidden="true" />
+          </a>.
+        </figcaption>
+      </figure>
+      <section class="mission">
         <h2>Make a Difference</h2>
         <p>
             Launching Literacy utilizes research-based methods to help students master key concepts necessary for grade-level and 
@@ -30,9 +35,9 @@
             with targeted interventions to overcome challenges along the way. Watch your student's standardized test scores take off
             as Launching Literacy prepares them to reach new heights.
         </p>
-      <div/>
-    </div>
-    <div class="form-container">  
+      </section>
+    </main>
+    <aside class="form-container">  
       <div class="contact-form">
         <h3>Interested in trying our free demo?</h3>
         <form id="contact-form">
@@ -43,10 +48,10 @@
           <select id="school-district" name="selection">
           </select>
           <br/>
-          <button class="contact-form">Contact Me</button>
+          <button type="submit" class="contact-form">Contact Me</button>
         </form>
       </div>
-    </div>
+    </aside>
     <script src="index.js"></script>
   </body>
   
