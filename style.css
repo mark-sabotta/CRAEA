@@ -21,10 +21,18 @@ body {
   text-align: left;
 }
 
+@media (min-width: 768px) {
+  .hero {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
 .hero section {
   flex-grow: 1;
   padding: 15px;
 }
+
 
 .main-header {
   color: #0D2C58;
